@@ -1,9 +1,51 @@
-# Kylie Hefner's Portfolio
+# Kylie Hefner — Data Science Portfolio Website
 
-Welcome to my portfolio! This website showcases a selection of 7 projects that I have completed in the last year. The projects use languages and tools including Python, R, SQL, APIs, Tableau, and machine learning.
+This is my personal portfolio website.
 
-## Technologies Used
-This website is built using HTML, CSS, and JavaScript.
+**Live site**: [kyliehefner.github.io](https://kyliehefner.github.io)
 
-## Credits
-The design of this website is based on the Massively template from HTML5 UP, which was created by @ajlkn. I have made some modifications to the original design to suit my preferences and needs.
+## About
+
+This website highlights my:
+
+- Projects in data science, machine learning, and computational modeling
+- Technical skills in Python, R, C++, HPC, and more
+- Education background and contact info
+
+The site is fully static and responsive, styled with HTML5 UP’s Massively template.
+
+## Pages
+
+- `index.html` — Home / overview
+- `projects.html` — Full list of projects with descriptions
+- `skills.html` — Technical skills by category
+- `about.html` — Personal and professional background
+- `contact.html` — Contact information and links
+
+## Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kyliehefner/KylieHefner.github.io.git
+   cd KylieHefner.github.io
+   ```
+
+2. Open `index.html` in your browser directly, or use a local server:
+
+   ```bash
+   # Python 3
+   python -m http.server
+   ```
+
+   Then visit `http://localhost:8000` in your browser.
+
+## Tools Used
+
+* HTML5, CSS3, JS, SASS
+* [Massively template](https://html5up.net/massively) by HTML5 UP
+* GitHub Pages for hosting
+
+## License
+
+This project is distributed under the [Creative Commons Attribution 3.0 License](https://html5up.net/license), as required by HTML5 UP’s usage terms.
+
