@@ -19,13 +19,13 @@
 		<div id="wrapper" class="fade-in">
 
 			<header id="header">
-				<a href="home.html" class="logo">Kylie Hefner</a>
+				<a href="index.html" class="logo">Kylie Hefner</a>
 			</header>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul class="links">
-					<li><a href="home.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li class="active"><a href="projects.html">Projects</a></li>
 					<li><a href="skills.html">Skills</a></li>
 					<li><a href="about.html">About</a></li>
@@ -43,33 +43,60 @@
 
 				<!-- Posts -->
 				<section class="posts">
+
 					<article>
 						<header>
-							<h2><a href="" target=”_blank”>Hyperbolic Restricted Boltzmann Machine for Hierarchical Learning</a></h2>
-						</header>
+							<span class="date">May 2025</span>
+							<h2><a href="project-rbm.html" target=”_blank”>Hyperbolic Restricted Boltzmann Machine for Hierarchical Learning</a></h2>
 						<p> Master’s Capstone Project | Chapman University </p>
-						<iframe src="" width = "100%" height = "300 px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-							<ul class="alt">
-								<li>Developed a Restricted Boltzmann Machine operating in hyperbolic space to better capture hierarchical structure in WordNet data</li>
-								<li>Engineered energy and sampling functions using Riemannian geometry</li>
-								<li>Demonstrated improved reconstruction accuracy compared to Euclidean RBMs</li>
-							</ul>
+						</header>
+						<a class="image fit"><img src="images/RBM.png" alt="AMR Solver" /></a>
+						<ul class="alt">
+							<li>Developed a Restricted Boltzmann Machine operating in hyperbolic space to better capture hierarchical structure in WordNet data</li>
+							<li>Engineered energy and sampling functions using Riemannian geometry</li>
+							<li>Demonstrated improved reconstruction accuracy compared to Euclidean RBMs</li>
+						</ul>
+						<p><b>Tools:</b> Python, NumPy, scikit-learn, NLTK, Matplotlib</p>
 						<ul class="actions special">
-							<li><br /><a href="" target=”_blank” class="button large">View Project</a></li>
+							<li><a href="project-rbm.html" class="button">View Project</a></li>
+							<li><a href="https://github.com/kyliehefner/hyperbolic-rbm" target="_blank" class="button">View on GitHub</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">December 2024</span>
+						  	<h2><a href="https://github.com/kyliehefner/HPC-Adaptive-PDE" target=”_blank”>Adaptive Mesh Refinement for the Advection-Diffusion Equation</a></h2>
+						  	<p>HPC Final Project | Chapman University</p>
+						</header>
+						<a class="image fit"><img src="images/AMR.png" alt="AMR Solver" /></a>
+						<ul class="alt">
+							<li>Built a 2D PDE solver using quadtree-based adaptive mesh refinement (AMR) in C++</li>
+							<li>Implemented parallelization with OpenMP and MPI, improving runtime and scalability for large grids</li>
+						</ul>
+						<p><b>Tools:</b> C++, OpenMP, MPI</p>
+						<ul class="actions special">
+							<li><a href="project-hpc.html" class="button">View Project</a></li>
+						  	<li><a href="https://github.com/kyliehefner/HPC-Adaptive-PDE" target="_blank" class="button">View on GitHub</a></li>
+						</ul>
+					 </article>
+
+					<article>
+						<header>
+							<span class="date">September 2022</span>
 							<h2><a href="https://github.com/UC-Healthcare/Healthcare_Analysis" target=”_blank”>Healthcare Analysis</a></h2>
+							<p>Certificate Program Final Project | UC Berkeley Extension</p>
 						</header>
 						<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTbuQ610Xrsaho6mXcTp3gwMJ_Vq3mnzLRX8cGuInL3oo7Cc-cUUbtqdXJtWuOHitbjrBtN27wFvvci/embed?start=false&loop=false&delayms=5000" width = "100%" height = "300 px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 						<p>In this project, I used a gradient boosting classifier model to predict mental health indicators from a large CDC health survey dataset. The data was first preprocessed in SQL. Then I performed preliminary feature engineering, removing outliers, binning the target, and normalizing the data. I used a feature importance plot for feature selection. The data was then split into training and testing sets and I used a machine learning library called "PyCaret" to compare 12 different binary classification models. Finally, I repeated the process making incremental changes to improve the model, with a resulting accuracy of 75.57%, up from 71.3%.</p>
 						<ul class="actions special">
-							<li><br /><a href="https://github.com/UC-Healthcare/Healthcare_Analysis" target=”_blank” class="button large">View Project</a></li>
+							<li><br /><a href="https://github.com/UC-Healthcare/Healthcare_Analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">August 2022</span>
 							<h2><a href="https://github.com/kyliehefner/Credit-Risk-Analysis" target=”_blank”> Credit Risk Analysis <br /> Using Supervised Machine Learning </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/Credit-Risk-Analysis" target=”_blank” class="image fit"><img src="images/sampling.png" alt="" /></a>
@@ -78,8 +105,10 @@
 							<li><a href="https://github.com/kyliehefner/Credit-Risk-Analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">May 2022</span>
 							<h2><a href="https://github.com/kyliehefner/World_Weather_Analysis" target=”_blank”> Trip Planner <br /> Using APIs </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/World_Weather_Analysis" target=”_blank” class="image fit"><img src="images/travel.png" alt="" /></a>
@@ -88,8 +117,10 @@
 							<li><a href="https://github.com/kyliehefner/World_Weather_Analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">May 2022</span>
 							<h2><a href="https://github.com/kyliehefner/school_district_analysis" target=”_blank”> School District Analysis <br /> Using Python </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/school_district_analysis" target=”_blank” class="image fit"><img src="images/school.jpeg" alt="" /></a>
@@ -98,8 +129,10 @@
 							<li><a href="https://github.com/kyliehefner/school_district_analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">July 2022</span>
 							<h2><a href="https://github.com/kyliehefner/MechaCar-Statistical-Analysis" target=”_blank”> Manufacturing Data Investigation <br /> Using R </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/MechaCar-Statistical-Analysis" target=”_blank” class="image fit"><img src="images/car.jpg" alt="" /></a>
@@ -108,8 +141,10 @@
 							<li><a href="https://github.com/kyliehefner/MechaCar-Statistical-Analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">May 2022</span>
 							<h2><a href="https://github.com/kyliehefner/Pewlett-Hackard-Analysis" target=”_blank”> Employee Database Analysis <br /> Using SQL </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/Pewlett-Hackard-Analysis" target=”_blank” class="image fit"><img src="images/employees.jpg" alt="" /></a>
@@ -118,8 +153,10 @@
 							<li><a href="https://github.com/kyliehefner/Pewlett-Hackard-Analysis" target=”_blank” class="button">View Project</a></li>
 						</ul>
 					</article>
+
 					<article>
 						<header>
+							<span class="date">July 2022</span>
 							<h2><a href="https://github.com/kyliehefner/Bikesharing" target=”_blank”> Bikesharing Visualizations <br /> Using Tableau </a></h2>
 						</header>
 						<a href="https://github.com/kyliehefner/Bikesharing" target=”_blank” class="image fit"><img src="images/bikesharing.png" alt="" /></a>

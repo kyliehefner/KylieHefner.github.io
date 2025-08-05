@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Hyperbolic RBM | Kylie Hefner</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+
+        <div id="wrapper">
+
+            <header id="header">
+				<a href="index.html" class="logo">Kylie Hefner</a>
+			</header>
+
+            <!-- Navbar -->
+            <nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="projects.html">Projects</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+            <!-- Main -->
+            <div id="main">  
+
+                <!-- Header -->
+                <header class="major">
+                    <h1>Hyperbolic Restricted Boltzmann Machine</h1>
+                    <p>Master’s Capstone Project – Chapman University</p>
+                </header>
+
+            <section class="post">
+                <iframe src="https://docs.google.com/presentation/d/1CXqafbitpx2dxxCY8nXLOg-ztZ9O03mXTFc-t4UspVE/embed?start=false&loop=false&delayms=5000" width = "100%" height = "500px" allowfullscreen="true"></iframe>
+                <br><h2 style="margin-top: 3rem;">Overview</h2>
+                <p>
+                    This project involved developing a Restricted Boltzmann Machine (RBM) that operates in hyperbolic space to better model hierarchical data structures like those found in WordNet.
+                </p>
+
+                <h2>Objectives</h2>
+                <ul>
+                    <li>Model hierarchical relationships using hyperbolic geometry</li>
+                    <li>Compare performance with Euclidean RBMs</li>
+                    <li>Explore sampling and training in curved space</li>
+                </ul>
+
+                <h2>Technical Details</h2>
+                <p>
+                    The model redefines the RBM’s energy function using Riemannian geometry, and employs custom sampling and optimization routines adapted to hyperbolic space. WordNet noun hierarchies were embedded and reconstructed to evaluate performance.
+                </p>
+
+                <h2>Results</h2>
+                <ul>
+                    <li>Achieved higher reconstruction accuracy on hierarchical datasets</li>
+                    <li>Showed meaningful clustering in hyperbolic latent space</li>
+                </ul>
+
+                <h2>Tools & Technologies</h2>
+                <ul>
+                    <li>Python, NumPy, PyTorch</li>
+                    <li>Riemannian optimization, WordNet, Matplotlib</li>
+                </ul>
+
+                <ul class="actions special">
+                    <li><a href="https://github.com/kyliehefner/hyperbolic-rbm" target="_blank" class="button primary">View Code on GitHub</a></li>
+                    <li><a href="projects.html" class="button">← Back to Projects</a></li>
+                </ul>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <section class="split contact">
+                    <section>
+                        <h3>Links</h3>
+                        <ul class="icons alt">
+                            <li><a href="mailto:kyliehefner.ds@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/kyliehefner/" target=”_blank” class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/kyliehefner" target=”_blank” class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

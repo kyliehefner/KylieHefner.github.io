@@ -22,21 +22,25 @@
 			<div id="intro">
 				<h1>Kylie Hefner<br />
 				Portfolio</h1>
-				<p>Data Scientist skilled in Python, R, SQL, and Tableau<br />
+				<p>Data Scientist • Computational Modeler • Math Enthusiast<br />
 				<ul class="icons alt">
 					<li><a href="mailto:kyliehefner.ds@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 					<li><a href="https://www.linkedin.com/in/kyliehefner/" target=”_blank” class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					<li><a href="https://github.com/kyliehefner" target=”_blank” class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 				</ul></p>
+				<ul class="actions special">
+					<li><a href="projects.html" class="button primary">See My Work</a></li>
+					<li><a href="about.html" class="button">About Me</a></li>
+				  </ul>
 				<ul class="actions">
-					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+					<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 				</ul>
 			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
 				<ul class="links">
-					<li class="active"><a href="home.html">Home</a></li>
+					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="skills.html">Skills</a></li>
 					<li><a href="about.html">About</a></li>
@@ -50,46 +54,56 @@
 				<!-- About Preview -->
 				<section class="post">
 					<header class="major">
-					  <h2>About Me</h2>
-					  <p>I'm a data scientist with a background in mathematics and a Master's in Computational and Data Sciences from Chapman University.
-						 I work at the intersection of modeling, machine learning, and high-performance computing.</p>
+						<h2>Welcome</h2>
+						<div style="text-align: center; margin: 2rem 0;">
+							<img src="images/ProfilePic.jpeg" alt="Kylie Hefner" style="width: 150px; border-radius: 50%;" />
+						</div>
+						<p>I'm a data scientist with a background in mathematics and a Master's in Computational and Data Sciences from Chapman University. I specialize in data science, computational modeling, and high-performance computing. This site showcases my technical work and interests — feel free to explore!</p>
+
 					</header>
 					<ul class="actions special">
-					  <li><a href="about.html" class="button large">Learn More</a></li>
+					  	<li><a href="about.html" class="button large">Learn More</a></li>
 					</ul>
 				  </section>
 		  
 				  <!-- Featured Projects -->
 				  <section class="posts">
 					<article>
-					  <header>
-						<h2><a href="https://github.com/UC-Healthcare/Healthcare_Analysis" target="_blank">
-						  Hyperbolic Restricted Boltzmann Machine</a></h2>
-						<p>Master’s Capstone Project | Chapman University</p>
-					  </header>
-					  <ul>
-						<li>RBM in hyperbolic space for hierarchical WordNet modeling</li>
-						<li>Used Riemannian geometry and achieved improved accuracy</li>
-					  </ul>
-					  <ul class="actions special">
-						<li><a href="projects.html" class="button">View More</a></li>
-					  </ul>
+						<header>
+							<span class="date">May 2025</span>
+							<h2><a href="project-rbm.html" target=”_blank”>Hyperbolic Restricted Boltzmann Machine for Hierarchical Learning</a></h2>
+						<p> Master’s Capstone Project | Chapman University </p>
+						</header>
+						<a class="image fit"><img src="images/RBM.png" alt="AMR Solver" /></a>
+						<ul class="alt">
+							<li>Developed a Restricted Boltzmann Machine operating in hyperbolic space to better capture hierarchical structure in WordNet data</li>
+							<li>Engineered energy and sampling functions using Riemannian geometry</li>
+							<li>Demonstrated improved reconstruction accuracy compared to Euclidean RBMs</li>
+						</ul>
+						<p><b>Tools:</b> Python, NumPy, scikit-learn, NLTK, Matplotlib</p>
+						<ul class="actions special">
+							<li><a href="project-rbm.html" class="button">View Project</a></li>
+							<li><a href="https://github.com/kyliehefner/hyperbolic-rbm" target="_blank" class="button">View on GitHub</a></li>
+						</ul>
 					</article>
 		  
 					<article>
-					  <header>
-						<h2><a href="https://github.com/YOUR_GITHUB/AMR-Advection-Diffusion" target="_blank">
-						  Adaptive Mesh Refinement Solver</a></h2>
-						<p>HPC Final Project | Chapman University</p>
-					  </header>
-					  <ul>
-						<li>C++ solver for advection-diffusion equation with quadtree AMR</li>
-						<li>Parallelized using OpenMP and visualized with Python</li>
-					  </ul>
-					  <ul class="actions special">
-						<li><a href="projects.html" class="button">View More</a></li>
-					  </ul>
-					</article>
+						<header>
+							<span class="date">December 2024</span>
+						  	<h2><a href="https://github.com/kyliehefner/HPC-Adaptive-PDE" target=”_blank”>Adaptive Mesh Refinement for the Advection-Diffusion Equation</a></h2>
+						  	<p>HPC Final Project | Chapman University</p>
+						</header>
+						<a class="image fit"><img src="images/AMR.png" alt="AMR Solver" /></a>
+						<ul class="alt">
+							<li>Built a 2D PDE solver using quadtree-based adaptive mesh refinement (AMR) in C++</li>
+							<li>Implemented parallelization with OpenMP and MPI, improving runtime and scalability for large grids</li>
+						</ul>
+						<p><b>Tools:</b> C++, OpenMP, MPI</p>
+						<ul class="actions special">
+							<li><a href="project-hpc.html" class="button">View Project</a></li>
+						  	<li><a href="https://github.com/kyliehefner/HPC-Adaptive-PDE" target="_blank" class="button">View on GitHub</a></li>
+						</ul>
+					 </article>
 				</section>
 		
 				<footer>

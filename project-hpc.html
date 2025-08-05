@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>AMR Solver for Advection-Diffusion | Kylie Hefner</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+
+        <div id="wrapper">
+
+            <header id="header">
+				<a href="index.html" class="logo">Kylie Hefner</a>
+			</header>
+
+            <!-- Navbar -->
+            <nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="projects.html">Projects</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+            <!-- Main -->
+            <div id="main">  
+
+                <!-- Header -->
+                <header class="major">
+                    <h1>Adaptive Mesh Refinement Solver</h1>
+                    <p>High Performance Computing Final Project | Chapman University</p>
+                </header>
+
+            <section class="post">
+                <iframe src="https://docs.google.com/presentation/d/1s6fOPCLaEf5AjIE2zOMqoG2X3wIqLZaWGueYurKRMTs/embed?start=false&loop=false&delayms=5000" width = "100%" height = "500px" allowfullscreen="true"></iframe>
+                <br><h2 style="margin-top: 3rem;">Overview</h2>
+                <p>
+                    This project involved building a C++ solver for the 2D advection-diffusion equation, using a quadtree-based Adaptive Mesh Refinement (AMR) framework. The solver dynamically refines the grid in regions with large error, improving accuracy and efficiency compared to uniform grids.
+                </p>
+
+                <h2>Objectives</h2>
+                <ul>
+                    <li>Implement AMR from scratch using a quadtree data structure</li>
+                    <li>Solve the advection-diffusion equation with finite difference methods</li>
+                    <li>Parallelize the computation using OpenMP to reduce runtime</li>
+                    <li>Visualize solution accuracy and refinement levels</li>
+                </ul>
+
+                <h2>Technical Details</h2>
+                <p>
+                    The solver supports refinement and coarsening based on a threshold applied to local error estimates. Cells are stored in a quadtree, and the PDE is solved iteratively using a finite difference stencil across non-uniform grids. Boundary conditions and flux continuity were carefully handled across levels. Parallel loops were applied using OpenMP for inner PDE solves and error computations.
+                </p>
+
+                <h2>Results</h2>
+                <ul>
+                    <li>Significant speedup on large grids using OpenMP</li>
+                    <li>Improved accuracy compared to fixed-grid solutions for the same number of total points</li>
+                    <li>Successfully visualized dynamic refinement levels and evolving solution profiles</li>
+                </ul>
+
+                <h2>Tools & Technologies</h2>
+                <ul>
+                    <li>C++, OpenMP</li>
+                    <li>Matplotlib, NumPy</li>
+                </ul>
+
+                <ul class="actions special">
+                    <li><a href="https://github.com/kyliehefner/HPC-Adaptive-PDE" target="_blank" class="button primary">View Code on GitHub</a></li>
+                    <li><a href="projects.html" class="button">← Back to Projects</a></li>
+                </ul>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <section class="split contact">
+                    <section>
+                        <h3>Links</h3>
+                        <ul class="icons alt">
+                            <li><a href="mailto:kyliehefner.ds@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/kyliehefner/" target=”_blank” class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                            <li><a href="https://github.com/kyliehefner" target=”_blank” class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </section>
+                </section>
+            </footer>
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+
+        </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
